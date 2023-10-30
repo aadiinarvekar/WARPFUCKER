@@ -59,6 +59,6 @@ while True:
     FAIL_COUNT += 1
   
   # Cooldown
-  cooldown_time = randint(30,50)
+  cooldown_time = randint(7,15)
   print(f"Sleep: {cooldown_time} seconds.")
   sleep(cooldown_time)
